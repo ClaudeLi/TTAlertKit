@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		48BA82BF51BDA5F3917593E1 /* TTAlertKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TTAlertKit.podspec; path = ../TTAlertKit.podspec; sourceTree = "<group>"; };
+		48BA82BF51BDA5F3917593E1 /* TTAlertKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TTAlertKit.podspec; path = ../TTAlertKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* TTAlertKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTAlertKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,12 +60,12 @@
 		61F7B5517EA351954FE72430 /* Pods-TTAlertKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTAlertKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTAlertKit_Example/Pods-TTAlertKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		87C67F1FA97D6D96164D3198 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		87C67F1FA97D6D96164D3198 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		899C1ACC9ECDDB7097EBC9BD /* Pods_TTAlertKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTAlertKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9766053FF85D33843570F98A /* Pods-TTAlertKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTAlertKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTAlertKit_Example/Pods-TTAlertKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B82D44FBDEAAF368B670F588 /* Pods-TTAlertKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTAlertKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTAlertKit_Tests/Pods-TTAlertKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D6800EFC1C9F28F184771A69 /* Pods-TTAlertKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTAlertKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTAlertKit_Tests/Pods-TTAlertKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E7CD394CC489F75E64A61DE4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E7CD394CC489F75E64A61DE4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EB9E081A7B32D55F1B5A791D /* Pods_TTAlertKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTAlertKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
