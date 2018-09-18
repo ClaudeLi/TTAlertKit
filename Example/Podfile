@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TTAlertKit_Example' do
+  pod 'TTAlertKit', :path => '../'
+
+  target 'TTAlertKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
