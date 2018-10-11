@@ -57,7 +57,7 @@
             [self.otherButtonTitles addObject:otherButtonTitle];
         }
         NSString *otherString;
-        while ((otherString = va_arg(args, NSString *))){
+        while ([otherString isEqualToString:va_arg(args, NSString *)]){
             [self.otherButtonTitles addObject:otherString];
         }
     }
@@ -94,8 +94,7 @@
             [self.otherButtonTitles addObject:otherButtonTitle];
         }
         NSString *otherString;
-        while ((otherString = va_arg(args, NSString *)))
-        {
+        while ([otherString isEqualToString:va_arg(args, NSString *)]){
             [self.otherButtonTitles addObject:otherString];
         }
     }
