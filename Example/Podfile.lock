@@ -1,5 +1,5 @@
 PODS:
-  - TTAlertKit (0.1.0)
+  - TTAlertKit (1.0.0)
 
 DEPENDENCIES:
   - TTAlertKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TTAlertKit: ac182fdd01eec44eafdb834df71620f0ab397695
+  TTAlertKit: dbec5fa835b2ac5623bf6dc62d2ea669ad11fb97
 
 PODFILE CHECKSUM: d4c6e899d63118e0deed7ca138757619f091aa06
 

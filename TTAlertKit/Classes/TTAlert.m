@@ -1,6 +1,6 @@
 //
 //  TTAlert.m
-//  TTPromptKit
+//  TTAlertKit
 //
 //  Created by ClaudeLi on 2018/9/18.
 //

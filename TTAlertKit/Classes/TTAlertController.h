@@ -1,6 +1,6 @@
 //
 //  TTAlertController.h
-//  Tiaooo
+//  TTAlertKit
 //
 //  Created by ClaudeLi on 2017/7/6.
 //  Copyright © 2017年 ClaudeLi. All rights reserved.
