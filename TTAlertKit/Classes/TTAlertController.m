@@ -57,8 +57,10 @@
             [self.otherButtonTitles addObject:otherButtonTitle];
         }
         NSString *otherString;
-        while ([otherString isEqualToString:va_arg(args, NSString *)]){
-            [self.otherButtonTitles addObject:otherString];
+        while (otherString = va_arg(args, NSString *)){
+            if (otherString && [otherString isKindOfClass:[NSString class]]) {
+                [self.otherButtonTitles addObject:otherString];
+            }
         }
     }
     return self;
@@ -94,8 +96,10 @@
             [self.otherButtonTitles addObject:otherButtonTitle];
         }
         NSString *otherString;
-        while ([otherString isEqualToString:va_arg(args, NSString *)]){
-            [self.otherButtonTitles addObject:otherString];
+        while (otherString = va_arg(args, NSString *)){
+            if (otherString && [otherString isKindOfClass:[NSString class]]) {
+                [self.otherButtonTitles addObject:otherString];
+            }
         }
     }
     return self;
