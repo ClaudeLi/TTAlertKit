@@ -30,7 +30,7 @@
     return _otherButtonTitles;
 }
 
-- (instancetype)initAlertWithTitle:(NSString *)title message:(NSString *)message cancelButtonTitle:(NSString *)cancelButtonTitle otherButtonTitles:(NSString *)otherButtonTitles, ...{
+- (instancetype)initAlertWithTitle:(NSString *)title message:(NSString *)message cancelButtonTitle:(NSString *)cancelButtonTitle otherButtonTitles:(NSString *)otherButtonTitles, ... NS_REQUIRES_NIL_TERMINATION{
     va_list args;
     va_start(args, otherButtonTitles);
     TTAlertController *alert = [self initAlertWithTitle:title
@@ -66,7 +66,7 @@
     return self;
 }
 
-- (instancetype)initSheetWithTitle:(NSString *)title message:(NSString *)message cancelButtonTitle:(NSString *)cancelButtonTitle destructiveButtonTitle:(NSString *)destructiveButtonTitle otherButtonTitles:(NSString *)otherButtonTitles, ...{
+- (instancetype)initSheetWithTitle:(NSString *)title message:(NSString *)message cancelButtonTitle:(NSString *)cancelButtonTitle destructiveButtonTitle:(NSString *)destructiveButtonTitle otherButtonTitles:(NSString *)otherButtonTitles, ... NS_REQUIRES_NIL_TERMINATION{
     va_list args;
     va_start(args, otherButtonTitles);
     TTAlertController *sheet = [self initSheetWithTitle:title

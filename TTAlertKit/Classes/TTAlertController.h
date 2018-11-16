@@ -14,7 +14,7 @@
 - (nullable instancetype)initAlertWithTitle:(nullable NSString *)title
                                     message:(nullable NSString *)message
                           cancelButtonTitle:(nullable NSString *)cancelButtonTitle
-                          otherButtonTitles:(nullable NSString *)otherButtonTitles, ...;
+                          otherButtonTitles:(nullable NSString *)otherButtonTitles, ... NS_REQUIRES_NIL_TERMINATION;
 
 - (nullable instancetype)initAlertWithTitle:(nullable NSString *)title
                                     message:(nullable NSString *)message
@@ -27,7 +27,7 @@
                                     message:(nullable NSString *)message
                           cancelButtonTitle:(nullable NSString *)cancelButtonTitle
                      destructiveButtonTitle:(nullable NSString *)destructiveButtonTitle
-                          otherButtonTitles:(nullable NSString *)otherButtonTitles, ...;
+                          otherButtonTitles:(nullable NSString *)otherButtonTitles, ... NS_REQUIRES_NIL_TERMINATION;
 
 - (nullable instancetype)initSheetWithTitle:(nullable NSString *)title
                                     message:(nullable NSString *)message

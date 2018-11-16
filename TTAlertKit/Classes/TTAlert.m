@@ -27,7 +27,7 @@ static TTAlertController *sheetView;
             message:(NSString *)message
      completeHelper:(void(^)(NSInteger clickIndex))completeHelper
         cancelTitle:(NSString *)cancelTitle
-        otherTitles:(NSString *)otherTitles, ...{
+        otherTitles:(NSString *)otherTitles, ... NS_REQUIRES_NIL_TERMINATION{
     va_list args;
     va_start(args, otherTitles);
     alertView = [[TTAlertController alloc] initAlertWithTitle:title
@@ -55,7 +55,7 @@ static TTAlertController *sheetView;
      completeHelper:(void(^)(NSInteger clickIndex))completeHelper
         cancelTitle:(NSString *)cancelTitle
    destructiveTitle:(NSString *)destructiveTitle
-         otherTitles:(NSString *)otherTitles, ...{
+         otherTitles:(NSString *)otherTitles, ... NS_REQUIRES_NIL_TERMINATION{
     va_list args;
     va_start(args, otherTitles);
     sheetView = [[TTAlertController alloc] initSheetWithTitle:title

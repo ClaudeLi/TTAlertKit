@@ -31,7 +31,7 @@
             message:(nullable NSString *)message
      completeHelper:(nullable void(^)(NSInteger clickIndex))completeHelper
         cancelTitle:(nullable NSString *)cancelTitle
-        otherTitles:(nullable NSString *)otherTitles, ...;
+        otherTitles:(nullable NSString *)otherTitles, ... NS_REQUIRES_NIL_TERMINATION;
 
 /**
  alert sheet
@@ -50,6 +50,6 @@
      completeHelper:(nullable void(^)(NSInteger clickIndex))completeHelper
         cancelTitle:(nullable NSString *)cancelTitle
    destructiveTitle:(nullable NSString *)destructiveTitle
-        otherTitles:(nullable NSString *)otherTitles, ...;
+        otherTitles:(nullable NSString *)otherTitles, ... NS_REQUIRES_NIL_TERMINATION;
 
 @end
