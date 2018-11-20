@@ -55,11 +55,11 @@
         _cancelButtonTitle = cancelButtonTitle;
         if (otherButtonTitle){
             [self.otherButtonTitles addObject:otherButtonTitle];
-        }
-        NSString *otherString;
-        while (otherString = va_arg(args, NSString *)){
-            if (otherString && [otherString isKindOfClass:[NSString class]]) {
-                [self.otherButtonTitles addObject:otherString];
+            NSString *otherString;
+            while (otherString = va_arg(args, NSString *)){
+                if (otherString && [otherString isKindOfClass:[NSString class]]) {
+                    [self.otherButtonTitles addObject:otherString];
+                }
             }
         }
     }
@@ -94,11 +94,11 @@
         _cancelButtonTitle = cancelButtonTitle;
         if (otherButtonTitle) {
             [self.otherButtonTitles addObject:otherButtonTitle];
-        }
-        NSString *otherString;
-        while (otherString = va_arg(args, NSString *)){
-            if (otherString && [otherString isKindOfClass:[NSString class]]) {
-                [self.otherButtonTitles addObject:otherString];
+            NSString *otherString;
+            while (otherString = va_arg(args, NSString *)){
+                if (otherString && [otherString isKindOfClass:[NSString class]]) {
+                    [self.otherButtonTitles addObject:otherString];
+                }
             }
         }
     }
